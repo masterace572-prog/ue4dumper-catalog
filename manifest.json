@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "appMinVersionCode": 26,
+  "appUpdate": {
+    "latestVersionCode": 26,
+    "latestVersionName": "0.26",
+    "apkDownloadUrl": "",
+    "notes": "Initial catalog for BGMI/PUBGM 4.5.0 (versionCode 21325)"
+  },
+  "games": [
+    {
+      "id": "bgmi",
+      "displayName": "BGMI",
+      "packageName": "com.pubg.imobile",
+      "versions": [
+        {
+          "versionName": "4.5.0",
+          "versionCode": 21325,
+          "notes": "BGMI 4.5.0 — upload libUE4.so and libanogs.so to Release tag bgmi-4.5.0",
+          "libs": [
+            {
+              "id": "ue4",
+              "fileName": "libUE4.so",
+              "label": "libUE4.so (BGMI 4.5.0)",
+              "downloadUrl": "https://github.com/masterace572-prog/ue4dumper-catalog/releases/download/bgmi-4.5.0/libUE4.so",
+              "sizeBytes": 0
+            },
+            {
+              "id": "anogs",
+              "fileName": "libanogs.so",
+              "label": "libanogs.so (BGMI 4.5.0)",
+              "downloadUrl": "https://github.com/masterace572-prog/ue4dumper-catalog/releases/download/bgmi-4.5.0/libanogs.so",
+              "sizeBytes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pubgm",
+      "displayName": "PUBG Mobile",
+      "packageName": "com.tencent.ig",
+      "versions": [
+        {
+          "versionName": "4.5.0",
+          "versionCode": 21325,
+          "notes": "PUBG Mobile 4.5.0 — upload libUE4.so and libanogs.so to Release tag pubgm-4.5.0",
+          "libs": [
+            {
+              "id": "ue4",
+              "fileName": "libUE4.so",
+              "label": "libUE4.so (PUBGM 4.5.0)",
+              "downloadUrl": "https://github.com/masterace572-prog/ue4dumper-catalog/releases/download/pubgm-4.5.0/libUE4.so",
+              "sizeBytes": 0
+            },
+            {
+              "id": "anogs",
+              "fileName": "libanogs.so",
+              "label": "libanogs.so (PUBGM 4.5.0)",
+              "downloadUrl": "https://github.com/masterace572-prog/ue4dumper-catalog/releases/download/pubgm-4.5.0/libanogs.so",
+              "sizeBytes": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
