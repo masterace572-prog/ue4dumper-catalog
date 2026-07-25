@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "appMinVersionCode": 26,
   "appUpdate": {
-    "latestVersionCode": 26,
-    "latestVersionName": "0.26",
-    "apkDownloadUrl": "",
-    "notes": "Initial catalog for BGMI/PUBGM 4.5.0 (versionCode 21325)"
+    "latestVersionCode": 47,
+    "latestVersionName": "0.47",
+    "apkDownloadUrl": "https://github.com/masterace572-prog/ue4dumper-catalog/releases/download/app-latest/app-debug.apk",
+    "notes": "Auto/Manual dump · fast compare · Settings · float min/close · in-app updates"
   },
   "games": [
     {
@@ -16,7 +16,7 @@
         {
           "versionName": "4.5.0",
           "versionCode": 21325,
-          "notes": "BGMI 4.5.0 — upload libUE4.so and libanogs.so to Release tag bgmi-4.5.0",
+          "notes": "BGMI 4.5.0 — Release tag bgmi-4.5.0: libUE4.so + libanogs.so",
           "libs": [
             {
               "id": "ue4",
@@ -30,7 +30,7 @@
               "fileName": "libanogs.so",
               "label": "libanogs.so (BGMI 4.5.0)",
               "downloadUrl": "https://github.com/masterace572-prog/ue4dumper-catalog/releases/download/bgmi-4.5.0/libanogs.so",
-              "sizeBytes": 0
+              "sizeBytes": 5722112
             }
           ]
         }
@@ -44,7 +44,7 @@
         {
           "versionName": "4.5.0",
           "versionCode": 21325,
-          "notes": "PUBG Mobile 4.5.0 — upload libUE4.so and libanogs.so to Release tag pubgm-4.5.0",
+          "notes": "PUBGM 4.5.0 — Release tag pubgm-4.5.0: libUE4.so + libanogs.so",
           "libs": [
             {
               "id": "ue4",
@@ -58,7 +58,7 @@
               "fileName": "libanogs.so",
               "label": "libanogs.so (PUBGM 4.5.0)",
               "downloadUrl": "https://github.com/masterace572-prog/ue4dumper-catalog/releases/download/pubgm-4.5.0/libanogs.so",
-              "sizeBytes": 0
+              "sizeBytes": 5722112
             }
           ]
         }
