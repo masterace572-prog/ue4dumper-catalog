@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "appMinVersionCode": 26,
   "appUpdate": {
-    "latestVersionCode": 47,
-    "latestVersionName": "0.47",
+    "latestVersionCode": 46,
+    "latestVersionName": "0.46",
     "apkDownloadUrl": "https://github.com/masterace572-prog/ue4dumper-catalog/releases/download/app-latest/app-debug.apk",
     "notes": "Auto/Manual dump · fast compare · Settings · float min/close · in-app updates"
   },
